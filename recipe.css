@@ -1,10 +1,60 @@
-body { color: white; background-color: orchid; }
-  h1 {color: green; font-family: Verdana; text-transform: uppercase; padding-left: 150px; padding-top: 30px; background-color: #FFFFFF;
-      opacity: 10;
-      font-size: 4em;
-      padding: 10px;
-    border: 10px ridge #333; 
- border-radius: 20px; }
-  h2 { font-family: Arial; }
-  li {color: purple; }
-  p {color: red; margin:60px; }
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: pink;
+}
+#wrapper { background-color: green; 
+           color: white;
+           margin-left: auto;
+           margin-right: auto;
+           width: 80%;
+} 
+
+#rightcolumn { margin-left: 500px;
+               background-color: yellow;
+               color: red;
+} 
+header { background-color: purple;
+        color: white; 
+        font-size: 150%; 
+        padding: 10px 10px 10px 155px;
+        height: 130px;
+}
+h2 { color: purple; 
+     font-family: arial, sans-serif;
+}
+
+#floatright { margin: 10px;
+             float: right;
+}
+
+footer {font-size:70%;
+         text-align: center;
+		 clear: right;
+         padding-bottom:20px;
+  background-color: purple;
+        color: white; 
+        font-size: 150%; 
+        padding: 10px 10px 10px 155px;
+        height: 130px;
+}
+
+nav { position: fixed; }
+nav ul { list-style-type: none; 
+         padding: 10px; }
+nav a { text-decoration: none; 
+        padding: 10px;
+        font-weight: bold; }
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: pink;
+}
+
