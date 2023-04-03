@@ -3,13 +3,16 @@
 <head>
 <title>My Favorite Recipe</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="recipe.css">   
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="recipe.css" media="(max-width: 768px)">  
 
 </head>
 <body>
 <div id="wrapper">
   <header>
     <h1>Butter Chicken</h1>
+   
   </header>
     <nav>
 	 <ul>
@@ -28,7 +31,13 @@
     </nav>
 	<div id="rightcolumn">
     <main> 
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_GqpdngI5-wKjt8d-lZfbVj-YC_8owmHn7Q&usqp=CAU" alt="Butter Chicken" height="380" width="380">
+<picture>
+    <source media="(min-width: 1200px)" srcset="large.jpeg">
+    <source media="(min-width: 600px)" srcset="med.jpeg">
+    <source media="(min-width: 380px)" srcset="small.jpeg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_GqpdngI5-wKjt8d-lZfbVj-YC_8owmHn7Q&usqp=CAU" alt="Butter Chicken" height="380" width="380">
+</picture>
+    
 	<h2>How to make:</h2>
     <ol>
 	<li>Clean your chicken, heat pan on stove top with olive oil, season chicken, cook chicken for 20 minutes.</li>
